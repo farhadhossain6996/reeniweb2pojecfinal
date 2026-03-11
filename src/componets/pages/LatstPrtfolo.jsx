@@ -5,6 +5,7 @@ import LatstPrtfolo1 from "/src/assets/LatstPrtfolo1.png";
 import LatstPrtfolo2 from "/src/assets/LatstPrtfolo2.png";
 import LatstPrtfolo3 from "/src/assets/LatstPrtfolo3.png";
 import LatstPrtfolo4 from "/src/assets/LatstPrtfolo4.png";
+import { useTheme } from "next-themes";
 
 import { BsVectorPen } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
@@ -12,7 +13,7 @@ import { IoCalendarClearOutline } from "react-icons/io5";
 
 export default function LatstPrtfolo() {
   return (
-    <div className="lg:py-25 py-10  bg-[#F4F4F4]">
+    <div className="lg:py-25 py-10  bg-[#F4F4F4]    ">
       <Container>
         <div className="text-center">
           <p className="text-base text-primary font-medium font-rubik  uppercase ">
@@ -112,11 +113,11 @@ export default function LatstPrtfolo() {
         </div>
 
         {/* My Skill */}
-        <div className="lg:mt-30 mt-15">
+        <div className="lg:mt-30 mt-15 ">
           <p className=" text-primary text-base font-rubik font-medium">
             My Skill
           </p>
-          <h3 className="lg:text-[48px] md:text-[32px] text-[22px] text-black font-rajdhani font-bold lg:leading-15 lg:w-[50%]">
+          <h3 className="lg:text-[48px] md:text-[32px] text-[22px] text-black dark:text-white font-rajdhani font-bold lg:leading-15 lg:w-[50%]">
             Elevated Designs Personalized the best Experiences
           </h3>
 

@@ -7,13 +7,13 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function BlogNews() {
   return (
-    <div className='my-30'>
+    <div className='my-30 '>
 <Container>
  <div className="text-center pb-13">
           <p className="text-base font-rubik font-medium text-primary uppercase ">
           Blog and news
           </p>
-          <h3 className="font-rajdhani font-bold lg:text-[48px] md:text-[32px] text-[22px] lg:leading-15 lg:w-159 w-full mx-auto text-black">
+          <h3 className="font-rajdhani font-bold lg:text-[48px] md:text-[32px] text-[22px] lg:leading-15 lg:w-159 w-full mx-auto text-black dark:text-white">
             Elevating Personal Branding the through Powerful Portfolios
           </h3>
         </div>

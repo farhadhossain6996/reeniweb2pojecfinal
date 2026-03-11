@@ -21,7 +21,7 @@ setShow(!isShow);
 
 
   return (
- <div className=" md:hidden mb-22.5 relative pt-25">
+ <div className=" md:hidden mb-22.5 relative pt-25 ">
 <Container>
 <div className="lg:flex justify-between items-center">
 
@@ -62,13 +62,13 @@ setShow(!isShow);
 
     <div className="   mt:10 lg:w-[25%] w-full">
 <div className="font-rubik font-normal text-4 ">
-<p className='text-black my-5'>About Me</p>
+<p className='text-black my-5 dark:text-white'>About Me</p>
 <p className='text-[#5D6570]'>A personal <span className='text-primary'>portfolio</span> is a collection of to <br />
 your work, that is achievements, and a <br />
 skills that <span className='text-primary'>web design</span> highlights in your</p>
 </div>
 <div className="mt-10">
-    <p className='font-rubik font-normal text-4 pb-2.5 text-black'>Find me on</p>
+    <p className='font-rubik font-normal text-4 pb-2.5 text-black dark:text-white'>Find me on</p>
 <div className="flex items-center gap-x-2">
     <div className="bg-hedicon/6 p-3 inline-block hover:bg-primary hover:text-white ease-in-out  duration-300 cursor-pointer rounded-full">
 <FaInstagram  />

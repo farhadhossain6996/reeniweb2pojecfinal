@@ -12,13 +12,13 @@ import asana from "/src/assets/asana.png";
 
 function Service() {
   return (
-    <div className="my-22.5">
+    <div className="my-22.5 " >
       <Container>
         <div className="text-center">
           <p className="text-base font-rubik font-normal text-primary uppercase">
             Latest Service
           </p>
-          <h2 className="text-black lg:text-[48px] text-[22px] font-rajdhani font-bold">
+          <h2 className="text-black dark:text-white lg:text-[48px] text-[22px] font-rajdhani font-bold">
             Inspiring The World One Project
           </h2>
           <p className="text-[#5D6570] font-rubik font-normal text-base">
@@ -186,7 +186,7 @@ function Service() {
           <div className="lg:flex items-center justify-between gap-7.5">
             <div className=" lg:w-1/2 w-full">
               <div className="bg-secondariy rounded-2xl border-primary border-r-3 border-b-3 lg:px-9.5 px-3 lg:py-12 py-7">
-                <p className="text-[#141414]  text-base  font-rubik font-normal leading-6 ">
+                <p className="text-[#141414 dark:text-white]  text-base  font-rubik font-normal leading-6 ">
                   Trainer Marketing
                 </p>
                 <p className="text-[18px] font-rajdhani font-bold text-black leading-7">
@@ -200,7 +200,7 @@ function Service() {
                 <p className="text-[#141414]  text-base  font-rubik font-normal leading-6">
                   Design Assistant
                 </p>
-                <p className="text-[18px] font-rajdhani font-bold text-black leading-7 ">
+                <p className="text-[18px] font-rajdhani font-bold text-black dark:text-white leading-7 ">
                   2008-2012
                 </p>
                 <p className="text-base font-rubik font-normal text-[#5D6570] leading-7 ">
@@ -214,7 +214,7 @@ function Service() {
                 <p className="text-[#141414]  text-base  font-rubik font-normal leading-6 ">
                   Assistant Director
                 </p>
-                <p className="text-[18px] font-rajdhani font-bold text-black leading-7 ">
+                <p className="text-[18px] font-rajdhani font-bold text-black dark:text-white leading-7 ">
                   2010-2014
                 </p>
                 <p className="text-base font-rubik font-normal text-[#5D6570] leading-7 ">
@@ -226,7 +226,7 @@ function Service() {
                 <p className="text-[#141414]  text-base  font-rubik font-normal leading-6">
                   Design Assistant
                 </p>
-                <p className="text-[18px] font-rajdhani font-bold text-black leading-7">
+                <p className="text-[18px] font-rajdhani font-bold text-black dark:text-white leading-7">
                   2008-2012
                 </p>
                 <p className="text-base font-rubik font-normal text-[#5D6570] leading-7">
@@ -254,7 +254,7 @@ function Service() {
               <p className="text-primary text-base font-rubik font-bold leading-10.5">
                 experience
               </p>
-              <p className="text-[24px] font-rajdhani font-bold text-black  leading-7.5 ">
+              <p className="text-[24px] font-rajdhani font-bold text-black dark:text-white  leading-7.5 ">
                 Fatima Asrafy
               </p>
               <p className="text-[18px] font-rajdhani font-medium text-[#141414] leading-6.75">
@@ -269,10 +269,10 @@ function Service() {
               <p className="text-primary text-base font-rubik font-bold leading-10.5">
                 experience
               </p>
-              <p className="text-[24px] font-rajdhani font-bold text-black leading-7.5 ">
+              <p className="text-[24px] font-rajdhani font-bold text-black dark:text-white leading-7.5 ">
                 Fatima Asrafy
               </p>
-              <p className="text-[18px] font-rajdhani font-medium text-[#141414] leading-6.75 ">
+              <p className="text-[18px] font-rajdhani font-medium text-[#141414] dark:text-white leading-6.75 ">
                 UI/UX Designer
               </p>
               <p className="text-base font-rubik font-normal text-[#5D6570] leading-7.5 mt-4 lg:w-111 w-full ">

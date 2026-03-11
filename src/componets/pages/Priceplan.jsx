@@ -4,17 +4,17 @@ import Container from '../Container';
 
 export default function Priceplan() {
   return (
-    <div className='lg:my-30 my-15'>
+    <div className='lg:my-30 my-15  '>
 
 <Container>
-<div className="text-center">
+<div className="text-center  ">
     <p className='text-base font-rubik font-medium text-primary uppercase'>My Price plan</p>
-    <h3 className='lg:text-[48px] md:text-[32px] text-[22px] text-black font-bold font-rajdhani text-center lg:leading-15 lg:w-121 w-full mx-auto'>Enhancing Collaboration between Remote</h3>
+    <h3 className='lg:text-[48px] md:text-[32px] text-[22px] text-black dark:text-white  font-bold font-rajdhani text-center lg:leading-15 lg:w-121 w-full mx-auto'>Enhancing Collaboration between Remote</h3>
 </div>
 <div className="lg:mt-12.5 mt-7.5  lg:flex items-center justify-between gap-7.5">
 <div className="bg-secondariy rounded-2xl border-primary border-r-3 border-b-3 p-9.5 lg:w-[33%] w-full">
 <p className=' text-[18px] font-rajdhani font-bold '>Starter</p>
-<p className='text-[48px] font-rajdhani font-bold text-black  '>$ 5.00</p>
+<p className='text-[48px] font-rajdhani font-bold text-black   '>$ 5.00</p>
 <p className='  text-[18px] font-rajdhani font-bold'>Per Month</p>
 <div className="pt-11.75 space-y-4.5">
 <div className="flex gap-x-2 items-center">
@@ -39,7 +39,7 @@ export default function Priceplan() {
     </div>
 <div className="bg-secondariy rounded-2xl border-primary border-r-3 border-b-3  p-9.5  lg:w-[33%] w-full lg:mt-0 my-7.5 ">
 <p className='text-[18px] font-rajdhani font-bold '>Basic</p>
-<p className='text-[48px] font-rajdhani font-bold text-black  '>$ 230.00</p>
+<p className='text-[48px] font-rajdhani font-bold text-black   '>$ 230.00</p>
 <p className='   text-[18px] font-rajdhani font-bold'>Per Month</p>
 <div className="mt-18 space-y-4.5">
 <div className="flex gap-x-2 items-center">
@@ -72,7 +72,7 @@ export default function Priceplan() {
     </div>
 <div className="bg-secondariy rounded-2xl border-primary border-r-3 border-b-3  p-9.5 lg:w-[33%] w-full  ">
 <p className=' text-[18px] font-rajdhani font-bold '>Premium</p>
-<p className='text-[48px] font-rajdhani font-bold text-black '>$ 45.00
+<p className='text-[48px] font-rajdhani font-bold text-black  '>$ 45.00
 </p>
 <p className='  pb-1 text-[18px] font-rajdhani font-bold'>Per Month</p>
 <div className="mt-18 space-y-4.5">

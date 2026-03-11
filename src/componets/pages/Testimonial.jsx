@@ -1,15 +1,14 @@
-import React from "react";
-import Container from "../Container";
 import { TfiQuoteLeft } from "react-icons/tfi";
+import Container from "../Container";
 export default function Testimonial() {
   return (
-    <div className="my-30">
+    <div className="my-30 ">
       <Container>
         <div className="text-center mb-13">
           <p className="text-base font-rubik font-medium text-primary uppercase leading-7">
             Our Testimonial
           </p>
-          <h3 className="font-rajdhani font-bold lg:text-[48px] md:text-[32px] text-[22px]  text-black  lg:leading-15 lg:w-121 w-full mx-auto">
+          <h3 className="font-rajdhani font-bold lg:text-[48px] md:text-[32px] text-[22px]  dark:text-white text-black  lg:leading-15 lg:w-121 w-full mx-auto">
             Enhancing Collaboration <br />
             between Remote
           </h3>
@@ -26,7 +25,7 @@ export default function Testimonial() {
 professional work, showcasing their skilA personal portfolio is a
 curated collection of an individual's professional work,
 showcasing their skills,</p>
- <p className='text-[18px] font-rajdhani font-bold text-black leading-7.5 mt-9'>Cameron Williamson</p>
+ <p className='text-[18px] font-rajdhani font-bold text-black dark:text-white leading-7.5 mt-9'>Cameron Williamson</p>
  <p className='text-[14px] font-rubik font-normal text-[#5D6570] leading-7.5'>Ui/Ux Designer</p>
 </div>
 </div>
@@ -41,7 +40,7 @@ showcasing their skills,</p>
 professional work, showcasing their skilA personal portfolio is a
 curated collection of an individual's professional work,
 showcasing their skills,</p>
- <p className='text-[18px] font-rajdhani font-bold text-black leading-7.5 mt-9'>Leslie Alexander</p>
+ <p className='text-[18px] font-rajdhani font-bold text-black dark:text-white leading-7.5 mt-9'>Leslie Alexander</p>
  <p className='text-[14px] font-rubik font-normal text-[#5D6570] leading-7.5'>Ui/Ux Designer</p>
 </div>
 </div>

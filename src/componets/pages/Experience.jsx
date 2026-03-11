@@ -12,14 +12,14 @@ export default function
 () {
   return (
     <div>
-     <div className="mt-[109.5px]">
+     <div className="mt-[109.5px] ">
     <Container>
 <div class="  lg:flex  justify-between items-center gap-7.5  ">
   <div className="border-3 border-primary/16 rounded-2xl lg:w-[25%] w-full lg:mt-0 mt-7.5 py-10.25">
   <div className="text-center">
     <img src={webdesign} className='mx-auto '  />
     <div className="">
-      <p className='text-[24px] font-bold font-rajdhani text-black leading-8.5 text-center mt-7.5'>Web Design</p>
+      <p className='text-[24px] font-bold font-rajdhani text-black dark:text-white leading-8.5 text-center mt-7.5'>Web Design</p>
     <p className='text-[#5D6570] font-rubik font-normal text-base leading-6.5 text-center mt-2.5 '>120 Projects</p>
     </div>
   </div>
@@ -28,7 +28,7 @@ export default function
   <div className="border-3 border-primary/16 rounded-2xl lg:w-[25%] w-full lg:mt-0 mt-7.5 py-10.25">
  <div className="text-center">
     <img src={UiDesign} className='mx-auto '  />
-    <p className='text-[24px] font-bold font-rajdhani text-black leading-8.5 text-center mt-7.5'>Ui/Ux Design</p>
+    <p className='text-[24px] font-bold font-rajdhani text-black dark:text-white leading-8.5 text-center mt-7.5'>Ui/Ux Design</p>
     <p className='text-[#5D6570] font-rubik font-normal text-base leading-6.5 text-center mt-2.5 '>241 Projects</p>
   </div>
 
@@ -37,14 +37,14 @@ export default function
   <div className="border-3 border-primary/16 rounded-2xl lg:w-[25%] w-full lg:mt-0 mt-7.5 py-10.25">
   <div className="text-center">
     <img src={WebResearch} className='mx-auto '  />
-    <p className='text-[24px] font-bold font-rajdhani text-black leading-8.5 text-center mt-7.5'>Web Research</p>
+    <p className='text-[24px] font-bold font-rajdhani text-black dark:text-white leading-8.5 text-center mt-7.5'>Web Research</p>
     <p className='text-[#5D6570] font-rubik font-normal text-base leading-6.5 text-center mt-2.5 '>240 Projects</p>
   </div>
   </div>
   <div className="border-3 border-primary/16 rounded-2xl lg:w-[25%] w-full lg:mt-0 mt-7.5 py-10.25">
   <div className="text-center">
     <img src={Marketing} className='mx-auto '  />
-    <p className='text-[24px] font-bold font-rajdhani text-black leading-8.5 text-center mt-7.5'>Marketing</p>
+    <p className='text-[24px] font-bold font-rajdhani text-black dark:text-white leading-8.5 text-center mt-7.5'>Marketing</p>
     <p className='text-[#5D6570] font-rubik font-normal text-base leading-6.5 text-center mt-2.5 '>331 Prodect</p>
   </div>
   </div>
@@ -58,7 +58,7 @@ export default function
 <div className="mt-22.5">
 <Container>
 <div className="lg:flex items-center justify-between">
-   <div className="bg-secondariy   lg:px-13 px-5 lg:pt-9 pt-7.5 lg:pb-13 pb-7.5 rounded-2xl ">
+   <div className="bg-secondariy    lg:px-13 px-5 lg:pt-9 pt-7.5 lg:pb-13 pb-7.5 rounded-2xl ">
      <div className="flex items-center gap-x-11 ">
         <p className='lg:text-[167px] text-[100px] font-bold text-primary font-inte lg:leading-45.75 leading-25 '>25</p>
         <p className='lg:text-[48px] text-[26px] font-bold font-rajdhani lg:leading-15.5 leading-9'>Years Of <br />experience</p>
