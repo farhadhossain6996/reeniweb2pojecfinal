@@ -12,12 +12,13 @@ import { MdLightMode } from "react-icons/md";
 import Container from "../Container";
 import Logo from "/src/assets/Logo.png";
 
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
 };
-const{ theme ,setTheme} =useTheme()
+// const{ theme ,setTheme} =useTheme()
 
   return (
     <div className="bg-header py-5 fixed w-full z-50 dark:text-black">
@@ -116,10 +117,10 @@ text-base font-bold font-rajdhani  flex justify-center items-center flex-col gap
 
 
 
-
-            <div onClick={() => setTheme(theme==="light"?"dark":"light")} className=" bg-hedicon/6 p-3 inline-block hover:bg-primary hover:text-white ease-in-out  duration-300 cursor-pointer rounded-full">
+     <div  className=" bg-hedicon/6 p-3 inline-block hover:bg-primary hover:text-white ease-in-out  duration-300 cursor-pointer rounded-full">
               <MdLightMode />
             </div>
+        
           </div>
         </div>
       </Container>
@@ -127,3 +128,6 @@ text-base font-bold font-rajdhani  flex justify-center items-center flex-col gap
   );
 };
 export default Header;
+
+
+// onClick={() => setTheme(theme==="light"?"dark":"light")}

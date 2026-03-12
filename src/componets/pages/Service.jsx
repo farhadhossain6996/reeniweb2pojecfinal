@@ -15,10 +15,10 @@ function Service() {
     <div className="my-22.5 " >
       <Container>
         <div className="text-center">
-          <p className="text-base font-rubik font-normal text-primary uppercase">
+          <p className="text-base font-rubik font-normal  text-primary uppercase">
             Latest Service
           </p>
-          <h2 className="text-black dark:text-white lg:text-[48px] text-[22px] font-rajdhani font-bold">
+          <h2 className="text-black  lg:text-[48px] text-[22px] font-rajdhani font-bold">
             Inspiring The World One Project
           </h2>
           <p className="text-[#5D6570] font-rubik font-normal text-base">
@@ -70,7 +70,7 @@ function Service() {
           </div>
 
           {/* RightSide */}
-          <div className="lg:w-1/2 w-full">
+          <div className="lg:w-1/2 w-full md:flex md:justify-center">
             <div className="lg:mt-0 mt-7.5">
               <img src={srvcmn} />
             </div>
@@ -192,18 +192,18 @@ function Service() {
                 <p className="text-[18px] font-rajdhani font-bold text-black leading-7">
                   2005-2009
                 </p>
-                <p className="text-base font-rubik font-normal text-[#5D6570] leading-7 ">
-                  A personal portfolio is a curated collection of an individual's professional work, showcasing their skills, experience A personal portfolio.
+                <p className="text-[15px] font-rubik font-normal text-[#5D6570] leading-7 mt-4.5 ">
+                  A personal portfolio is a curated collection of an individual's professional work, showcasin their skills, experience A personal portfolio.
                 </p>
               </div>
               <div className="bg-secondariy rounded-2xl border-primary border-r-3 border-b-3 lg:px-9.5 px-3 lg:py-12 py-7  mt-7.5 ">
                 <p className="text-[#141414]  text-base  font-rubik font-normal leading-6">
                   Design Assistant
                 </p>
-                <p className="text-[18px] font-rajdhani font-bold text-black dark:text-white leading-7 ">
+                <p className="text-[18px] font-rajdhani font-bold text-black  leading-7 ">
                   2008-2012
                 </p>
-                <p className="text-base font-rubik font-normal text-[#5D6570] leading-7 ">
+                <p className="text-base font-rubik font-normal text-[#5D6570] leading-7 mt-4.5 ">
                   I’ve had the privilege of working with various clients, from
                   startups to  established companies, helping bring their visions to life.
                 </p>
@@ -214,10 +214,10 @@ function Service() {
                 <p className="text-[#141414]  text-base  font-rubik font-normal leading-6 ">
                   Assistant Director
                 </p>
-                <p className="text-[18px] font-rajdhani font-bold text-black dark:text-white leading-7 ">
+                <p className="text-[18px] font-rajdhani font-bold text-black leading-7 ">
                   2010-2014
                 </p>
-                <p className="text-base font-rubik font-normal text-[#5D6570] leading-7 ">
+                <p className="text-base font-rubik font-normal text-[#5D6570] leading-7 mt-4.5 ">
                   Each project here showcases my commitment to excellence and
                   adaptability, tailored to meet each client’s unique needs.
                 </p>
@@ -226,12 +226,12 @@ function Service() {
                 <p className="text-[#141414]  text-base  font-rubik font-normal leading-6">
                   Design Assistant
                 </p>
-                <p className="text-[18px] font-rajdhani font-bold text-black dark:text-white leading-7">
+                <p className="text-[18px] font-rajdhani font-bold text-black  leading-7">
                   2008-2012
                 </p>
-                <p className="text-base font-rubik font-normal text-[#5D6570] leading-7">
+                <p className="text-base font-rubik font-normal text-[#5D6570] leading-7 mt-4.5">
                   Each project here showcases my commitment to excellence and
-                  <br />
+                 
                   adaptability, tailored to meet each client’s unique needs a
                   personal.
                 </p>
@@ -254,7 +254,7 @@ function Service() {
               <p className="text-primary text-base font-rubik font-bold leading-10.5">
                 experience
               </p>
-              <p className="text-[24px] font-rajdhani font-bold text-black dark:text-white  leading-7.5 ">
+              <p className="text-[24px] font-rajdhani font-bold text-black  leading-7.5 ">
                 Fatima Asrafy
               </p>
               <p className="text-[18px] font-rajdhani font-medium text-[#141414] leading-6.75">
@@ -269,10 +269,10 @@ function Service() {
               <p className="text-primary text-base font-rubik font-bold leading-10.5">
                 experience
               </p>
-              <p className="text-[24px] font-rajdhani font-bold text-black dark:text-white leading-7.5 ">
+              <p className="text-[24px] font-rajdhani font-bold text-black leading-7.5 ">
                 Fatima Asrafy
               </p>
-              <p className="text-[18px] font-rajdhani font-medium text-[#141414] dark:text-white leading-6.75 ">
+              <p className="text-[18px] font-rajdhani font-medium text-[#141414]  leading-6.75 ">
                 UI/UX Designer
               </p>
               <p className="text-base font-rubik font-normal text-[#5D6570] leading-7.5 mt-4 lg:w-111 w-full ">

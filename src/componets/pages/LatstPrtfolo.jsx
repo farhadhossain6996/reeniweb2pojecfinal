@@ -117,13 +117,13 @@ export default function LatstPrtfolo() {
           <p className=" text-primary text-base font-rubik font-medium">
             My Skill
           </p>
-          <h3 className="lg:text-[48px] md:text-[32px] text-[22px] text-black dark:text-white font-rajdhani font-bold lg:leading-15 lg:w-[50%]">
+          <h3 className="lg:text-[48px] md:text-[32px] text-[22px] text-black  font-rajdhani font-bold lg:leading-15 lg:w-[50%]">
             Elevated Designs Personalized the best Experiences
           </h3>
 
           <div className="mt-15 pb-25 space-y-11 ">
             <div className="group">
-              <div className="lg:flex md:flex items-center justify-between  group-hover:bg-primary transition-all duration-300  hover:py-8 px-5 hover:text-black">
+              <div className="lg:flex md:flex items-center justify-between  group-hover:bg-primary transition-all duration-300  py-8 px-5 hover:text-black">
                 <div className=" lg:text-start  text-center lg:w-[15%] md:w-[15%] w-full ">
                   <div className="border-2 border-[#141414] p-4.5 inline-block rounded-full text-[30px] ">
                     <AiFillBank />
@@ -151,7 +151,7 @@ export default function LatstPrtfolo() {
             </div>
             <div className="group">
 
-              <div className="lg:flex md:flex items-center justify-between  group-hover:bg-primary transition-all duration-300  hover:py-8 px-5 group-hover:text-black">
+              <div className="lg:flex md:flex items-center justify-between  group-hover:bg-primary transition-all duration-300 py-8 px-5 group-hover:text-black">
                <div className="lg:text-start  text-center lg:w-[15%] md:w-[15%] w-full">
                  <div className=" border-2 border-[#141414] p-4.5 inline-block rounded-full text-[30px] ">
                   <IoCalendarClearOutline  />
@@ -174,7 +174,7 @@ design
               </div>
             </div>
             <div className="group">
-              <div className="lg:flex md:flex items-center justify-between  group-hover:bg-primary transition-all duration-300  hover:py-8 px-5 hover:text-black">
+              <div className="lg:flex md:flex items-center justify-between  group-hover:bg-primary transition-all duration-300 py-8 px-5 hover:text-black">
                <div className="lg:text-start  text-center lg:w-[15%] md:w-[15%] w-full">
                  <div className="border-2 border-[#141414] p-4.5 inline-block rounded-full text-[30px] ">
                   <BsVectorPen  />

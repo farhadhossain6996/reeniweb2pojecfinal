@@ -15,7 +15,7 @@ export default function Footer() {
 <div className="lg:w-1/2 w-full">
 <div className="">
         <img src={Logo} className='w-30' />
- <h2 className='text-[50px] text-black dark:text-white   font-bold font-rajdhani leading-15 lg:w-[50%] w-full mt-5.5'>Get Ready <span className='font-normal'>To Create Great</span></h2>
+ <h2 className='text-[50px] text-black   font-bold font-rajdhani leading-15 lg:w-[50%] w-full mt-5.5'>Get Ready <span className='font-normal'>To Create Great</span></h2>
 <div className=" relative ">
   <input className=' z-20 outline-none border-b border-[#D9DDE0] pb-2.5 w-1/2 mt-10 text-tertiary ' type="email" placeholder='Email Adress' />
   <MdOutlineEmail className='absolute  right-1/2absolute bottom-4 right-1/2' />
@@ -27,7 +27,7 @@ export default function Footer() {
 <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5">
     <div className="lg:flex md:flex justify-between items-start">
 <div className=" lg:w-1/2 md:w-1/2 w-full">
-    <p className=' font-bold font-rajdhani text-[24px] text-black dark:text-white pb-10'> Quick Link</p>
+    <p className=' font-bold font-rajdhani text-[24px] text-black pb-10'> Quick Link</p>
     <ul className=' text-base font-normal font-rubik  space-y-2'>
         <li>About Me</li>
         <li>Services</li>
@@ -44,19 +44,19 @@ export default function Footer() {
     <div className="text-[20px] p-3 rounded-full  border-3  border-[#D9DDE0] duration-300 hover:scale-110  ease-in-out bg-secondary inline-block cursor-pointer">
         <MdEmail/>
     </div>
-        <p className='text-base font-rubik font-normal text-black dark:text-white '> nafiz125@gmail.com</p>
+        <p className='text-base font-rubik font-normal text-black  '> nafiz125@gmail.com</p>
   </div>
   <div className=" flex items-center gap-x-2 ">
     <div className="text-[20px] p-3 rounded-full  border-3  border-[#D9DDE0] duration-300 hover:scale-110  ease-in-out bg-secondary inline-block cursor-pointer">
         <FaLocationDot/>
     </div>
-        <p className='text-base font-rubik font-normal text-black dark:text-white '>3891 Ranchview Dr. Richardson</p>
+        <p className='text-base font-rubik font-normal text-black  '>3891 Ranchview Dr. Richardson</p>
   </div>
   <div className=" flex items-center gap-x-2 ">
     <div className="text-[20px] p-3 rounded-full  border-3  border-[#D9DDE0] duration-300 hover:scale-110  ease-in-out bg-secondary inline-block cursor-pointer">
         <IoCall/>
     </div>
-        <p className='text-base font-rubik font-normal text-black dark:text-white '>01245789321</p>
+        <p className='text-base font-rubik font-normal text-black  '>01245789321</p>
   </div>
 <div className="flex items-center gap-x-2 pt-7.5">
     <div className="bg-hedicon/6 p-3 inline-block hover:bg-primary hover:text-white ease-in-out  duration-300 cursor-pointer rounded-full">

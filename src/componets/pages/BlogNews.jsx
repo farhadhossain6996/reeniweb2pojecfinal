@@ -13,12 +13,12 @@ function BlogNews() {
           <p className="text-base font-rubik font-medium text-primary uppercase ">
           Blog and news
           </p>
-          <h3 className="font-rajdhani font-bold lg:text-[48px] md:text-[32px] text-[22px] lg:leading-15 lg:w-159 w-full mx-auto text-black dark:text-white">
+          <h3 className="font-rajdhani font-bold lg:text-[48px] md:text-[32px] text-[22px] lg:leading-15 lg:w-159 w-full mx-auto text-black ">
             Elevating Personal Branding the through Powerful Portfolios
           </h3>
         </div>
     <div className=" lg:flex justify-between items-center gap-7.5 lg:mt-13 mt-7.5">
-        <div className=" border-3 border-[#D9DDE0] lg:w-[33%] w-full lg:mt-0 mt-7.5 rounded-2xl  ">
+        <div className=" border-3 border-[#D9DDE0] lg:w-[33%] w-full lg:mt-0 mt-7.5 rounded-3xl  ">
         <img src={BlogNews1} className='w-full' />
         <div className="p-7.5">
             <p className='text-[24px] font-bold font-rajdhani'>Let’s bring your ideas to life! <br />Contact me, and let’s</p>
@@ -26,7 +26,7 @@ function BlogNews() {
                 <IoIosArrowForward /> </p>
         </div>
     </div>
-        <div className=" border-3 border-[#D9DDE0] lg:w-[33%] w-full lg:mt-0 mt-7.5 rounded-2xl ">
+        <div className=" border-3 border-[#D9DDE0] lg:w-[33%] w-full lg:mt-0 mt-7.5 rounded-3xl ">
         <img src={BlogNews2} className='w-full'  />
         <div className="p-7.5">
             <p className='text-[24px] font-bold font-rajdhani'>Inspiring the World, One Project at a Time for the man</p>
@@ -34,7 +34,7 @@ function BlogNews() {
                 <IoIosArrowForward /> </p>
         </div>
     </div>
-        <div className="  border-3 border-[#D9DDE0] lg:w-[33%] w-full lg:mt-0 mt-7.5 rounded-2xl ">
+        <div className="  border-3 border-[#D9DDE0] lg:w-[33%] w-full lg:mt-0 mt-7.5 rounded-3xl ">
         <img src={BlogNews3}  className='w-full' />
         <div className="p-7.5">
             <p className='text-[24px] font-bold font-rajdhani'>Each one showcases my approach and dedication man</p>

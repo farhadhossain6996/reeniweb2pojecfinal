@@ -8,7 +8,7 @@ export default function Testimonial() {
           <p className="text-base font-rubik font-medium text-primary uppercase leading-7">
             Our Testimonial
           </p>
-          <h3 className="font-rajdhani font-bold lg:text-[48px] md:text-[32px] text-[22px]  dark:text-white text-black  lg:leading-15 lg:w-121 w-full mx-auto">
+          <h3 className="font-rajdhani font-bold lg:text-[48px] md:text-[32px] text-[22px] text-black  lg:leading-15 lg:w-121 w-full mx-auto">
             Enhancing Collaboration <br />
             between Remote
           </h3>

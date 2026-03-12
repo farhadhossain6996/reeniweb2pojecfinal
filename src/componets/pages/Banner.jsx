@@ -23,7 +23,7 @@ const[isShow ,setShow] = useState(false);
  }         
 
   return (
-    <div className='md:block mb-22.5 relative pt-25 hidden'>
+    <div className='lg:block mb-22.5 relative pt-25 hidden'>
 <Container>
 <div className="lg:flex justify-between items-center">
 
@@ -37,13 +37,17 @@ const[isShow ,setShow] = useState(false);
     </div>
  {/* Middlepart */}
 
-    <div className="relative items-center lg:w-[50%] w-full ">
-       <div className="absolute -bottom-14 -right-65.5 z-0 w-267.75  ">
+     <div className="relative items-center lg:w-[50%] w-full ">
+
+
+
+
+    <div className="absolute -bottom-14 -right-65.5 z-0 w-267.75  ">
          <img src={Heading}  />
        </div>
        <div className="absolute -bottom-15 left-4 z-20  w-[754.36px]  ">
          <img src={WebDesign}  />
-       </div>
+       </div> 
 <div className="relative z-10 ">
     <div className="">
       <img src={BanrImg} />
@@ -51,7 +55,7 @@ const[isShow ,setShow] = useState(false);
 </div>
 
 
-
+     
 
 
     </div>

@@ -21,18 +21,18 @@ setShow(!isShow);
 
 
   return (
- <div className=" md:hidden mb-22.5 relative pt-25 ">
+ <div className="lg:hidden mb-22.5 relative pt-25 ">
 <Container>
 <div className="lg:flex justify-between items-center">
 
-  <div className="relative items-center lg:w-[50%] w-full">
+  <div className="relative items-center lg:w-[50%]  w-full">
        <div className="absolute -bottom-14 -right-65.5 z-0 w-267.75 lg:block hidden ">
          <img src={Heading}  />
        </div>
        <div className="absolute -bottom-15 left-4 z-20  w-[754.36px] lg:block hidden ">
          <img src={WebDesign}  />
        </div>
-<div className="relative z-10 ">
+<div className="relative z-10  flex justify-center ">
     <div className="">
       <img src={BanrImg} />
     </div>
@@ -44,10 +44,10 @@ setShow(!isShow);
 
     {/* LEftSide */}
     <div className="font-bold font-rajdhani lg:w-[25%] w-full mt-7.5 ">
-        <h4 className=' text-[20px]'>Hello i’m</h4>
-        <h1 className=' text-[38px]   '>Brooklyn Simmons
+        <h4 className=' text-[20px] md:text-[20px] '>Hello i’m</h4>
+        <h1 className=' text-[38px] md:text-[45px]  mb-2.5  '>Brooklyn Simmons
 </h1>
-<button className=' bg-primary px-7.5 py-5.5 flex  items-center gap-x-1.5 rounded-full font-medium font-rubik text-base text-white'> View Portfolio <FaArrowRight />
+<button className=' bg-primary px-7.5 py-5.5 flex  items-center gap-x-1.5 rounded-full font-medium font-rubik text-base text-white'> View Portfolio  <FaArrowRight />
 </button>
     </div>
  {/* Middlepart */}
@@ -62,9 +62,9 @@ setShow(!isShow);
 
     <div className="   mt:10 lg:w-[25%] w-full">
 <div className="font-rubik font-normal text-4 ">
-<p className='text-black my-5 dark:text-white'>About Me</p>
-<p className='text-[#5D6570]'>A personal <span className='text-primary'>portfolio</span> is a collection of to <br />
-your work, that is achievements, and a <br />
+<p className='text-black my-5 '>About Me</p>
+<p className='text-[#5D6570]'>A personal <span className='text-primary'>portfolio</span> is a collection of to 
+your work, that is achievements, and a 
 skills that <span className='text-primary'>web design</span> highlights in your</p>
 </div>
 <div className="mt-10">
