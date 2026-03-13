@@ -10,11 +10,8 @@ import location from '/src/assets/location.png'
 import cardbanner from '/src/assets/cardbanner.png'
 import WebDesign from '/src/assets/WEB DESIGN.png';
 import preBuilt from '/src/assets/preBuilt.png';
-
 import { useState } from "react";
-
-
-
+import { motion } from "framer-motion";
 
 const  Banner = () => {
 const[isShow ,setShow] = useState(false);
@@ -23,14 +20,21 @@ const[isShow ,setShow] = useState(false);
  }         
 
   return (
-    <div className='lg:block mb-22.5 relative pt-25 hidden'>
+<motion.h1
+ initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+>
+  
+<div className='lg:block mb-22.5 relative pt-25 hidden'>
 <Container>
 <div className="lg:flex justify-between items-center">
 
     {/* LEftSide */}
     <div className="font-bold font-rajdhani lg:w-[25%] w-full ">
-        <h4 className=' text-[28px]'>Hello i’m</h4>
-        <h1 className='lg:text-[90px] md:text-[45px] text-[38px] lg:leading-25.75  '>Brooklyn Simmons
+        <h4 className=' text-[28px] dark:text-white'>Hello i’m</h4>
+        <h1 className='lg:text-[90px] md:text-[45px] text-[38px] lg:leading-25.75 dark:text-white  '>Brooklyn Simmons
 </h1>
 <button className=' bg-primary px-7.5 py-5.5 flex  items-center gap-x-1.5 rounded-full font-medium font-rubik text-base text-white '> View Portfolio <FaArrowRight />
 </button>
@@ -208,6 +212,14 @@ skills that <span className='text-primary'>web design</span> highlights in your<
 
   
     </div>
+
+
+
+
+
+
+</motion.h1>
+
   )
 }
 

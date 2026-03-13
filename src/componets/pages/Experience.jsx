@@ -8,10 +8,19 @@ import UiDesign from '/src/assets/UiDesign.png';
 
 import webdesign from '/src/assets/webdesign.png';
 import WebResearch from '/src/assets/WebResearch.png';
+import { motion } from "framer-motion";
+
 export default function 
 () {
   return (
-    <div>
+ <motion.h1
+ initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+>
+
+   <div>
      <div className="mt-[109.5px] ">
     <Container>
 <div class="  lg:flex  justify-between items-center gap-7.5  ">
@@ -100,5 +109,9 @@ export default function
 
 
     </div>
+
+
+
+</motion.h1>
   )
 }

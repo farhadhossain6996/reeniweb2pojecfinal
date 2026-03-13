@@ -4,10 +4,17 @@ import { IoCall } from "react-icons/io5";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
 import Container from '../Container';
 import Logo from '/src/assets/Logo.png';
-
+import { motion } from "framer-motion";
 export default function Footer() {
   return (
-    <div className=' bg-[#F4F4F4] mt-30 dark:bg-[#141414] '>
+    <motion.h1
+ initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+>
+
+ <div className=' bg-[#F4F4F4] mt-30 dark:bg-[#141414] '>
 <Container>
 <div className="py-22.5 lg:flex justify-between items-start">
 <div className="lg:w-1/2 w-full">
@@ -73,21 +80,17 @@ export default function Footer() {
 </div>
 </div>
 
-
-
 </div>
 </div>
 
 </div>
-
-
    <div className=" lg:flex md:flex justify-between items-center py-7 border-t border-[#D9DDE0] lg:mt-31.75 mt-15">
                         <p className='text-[14px] text-tertiary dark:text-white font-normal font-rubik leading-7.5 lg:text-start md:text-start text-center '>© InversWeb 2026 | All Rights Reserved</p>
                         <p className='text-[14px] text-primary dark:text-white font-normal font-rubik leading-7.5 lg:text-start md:text-start text-center '>Trams & Condition Privacy Policy Contact Us</p>
                     </div>
-
 </Container>
-
     </div>
+
+</motion.h1>
   )
 }

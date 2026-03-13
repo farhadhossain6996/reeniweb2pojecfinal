@@ -1,8 +1,16 @@
 import { TfiQuoteLeft } from "react-icons/tfi";
 import Container from "../Container";
+import { motion } from "framer-motion";
+
 export default function Testimonial() {
   return (
-    <div className="my-30 ">
+   <motion.h1
+ initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+>
+ <div className="my-30 ">
       <Container>
         <div className="text-center mb-13">
           <p className="text-base font-rubik font-medium text-primary uppercase  leading-7">
@@ -48,5 +56,10 @@ showcasing their skills,</p>
         
       </Container>
     </div>
+
+
+
+  
+</motion.h1>
   );
 }

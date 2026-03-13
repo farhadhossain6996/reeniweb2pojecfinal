@@ -12,7 +12,6 @@ import Container from "../Container";
 import DarkMode from "../toggle/DarkMode";
 import Logo from "/src/assets/Logo.png";
 
-
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
@@ -24,21 +23,23 @@ function toggleDark() {
 
 
   return (
-    <div className="bg-header py-5 fixed w-full z-50 dark:text-white dark:bg-[#141414]">
+  
+ <div className="bg-header py-5 fixed w-full z-50 dark:text-white dark:bg-[#141414]">
       <Container>
         <div className="flex items-center justify-between">
           <div className="">
             <img src={Logo} />
           </div>
           {/* //Mobile Device Start  */}
+<div className=" flex items-center gap-3 lg:hidden">
+  <DarkMode/>
+
 
 
           {!isOpen && (
             <div
               onClick={toggleMenu}
-              className="cursor-pointer  text-primary lg:hidden"
-            >
-              
+              className="cursor-pointer  text-primary lg:hidden">  
               <HiMenu size={30} />
             </div>
           )}
@@ -73,13 +74,18 @@ function toggleDark() {
                   Contact
                 </li>
               </ul>
-            </div>
-          ) : (
+ <DarkMode/>
+          </div>
+  ) : (
             <div
               className="bg-gray-800 overflow-hidden fixed z-10 left-[-150%] top-0 duration-300 ease-in-out
 text-base font-bold font-rajdhani  flex justify-center items-center flex-col gap-x-10"
             ></div>
           )}
+
+
+
+</div>
 
           {/* //Mobile Device END  */}
 
@@ -118,15 +124,13 @@ text-base font-bold font-rajdhani  flex justify-center items-center flex-col gap
             <div className="bg-hedicon/6 p-3 inline-block hover:bg-primary hover:text-white ease-in-out  duration-300 cursor-pointer rounded-full">
               <FaFacebookF />
             </div>
-
-
-
-
-  <DarkMode/>
+             <DarkMode/>
           </div>
         </div>
       </Container>
     </div>
+
+
   );
 };
 export default Header;

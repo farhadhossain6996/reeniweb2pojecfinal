@@ -9,10 +9,17 @@ import slack from "/src/assets/slack.png";
 import upwork from "/src/assets/upwork.png";
 import amazon from "/src/assets/amazon.png";
 import asana from "/src/assets/asana.png";
+import { motion } from "framer-motion";
 
 function Service() {
   return (
-    <div className="my-22.5 " >
+   <motion.h1
+ initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+>
+ <div className="my-22.5 " >
       <Container>
         <div className="text-center">
           <p className="text-base font-rubik font-normal  text-primary uppercase">
@@ -319,6 +326,9 @@ function Service() {
         </div>
       </Container>
     </div>
+
+
+</motion.h1>
   );
 }
 

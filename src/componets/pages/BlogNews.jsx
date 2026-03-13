@@ -4,10 +4,17 @@ import BlogNews1 from '/src/assets/BlogNews1.png'
 import BlogNews2 from '/src/assets/BlogNews2.png'
 import BlogNews3 from '/src/assets/BlogNews3.png'
 import { IoIosArrowForward } from "react-icons/io";
+import { motion } from 'framer-motion'
 
 function BlogNews() {
   return (
-    <div className='my-30 '>
+  <motion.h1
+ initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+>
+  <div className='my-30 '>
 <Container>
  <div className="text-center pb-13">
           <p className="text-base font-rubik font-medium text-primary uppercase ">
@@ -46,6 +53,10 @@ function BlogNews() {
 </Container>
 
     </div>
+
+
+
+</motion.h1>
   )
 }
 

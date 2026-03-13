@@ -1,10 +1,17 @@
 import { FaArrowRight } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
 import Container from '../Container';
+import { motion } from "framer-motion";
 
 export default function Priceplan() {
   return (
-    <div className='lg:my-30 my-15  '>
+    <motion.h1
+ initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+>
+ <div className='lg:my-30 my-15  '>
 
 <Container>
 <div className="text-center  ">
@@ -12,6 +19,9 @@ export default function Priceplan() {
     <h3 className='lg:text-[48px] md:text-[32px] text-[22px] text-black  font-bold font-rajdhani text-center lg:leading-15 lg:w-121 w-full dark:text-white mx-auto'>Enhancing Collaboration between Remote</h3>
 </div>
 <div className="lg:mt-12.5 mt-7.5  lg:flex items-center justify-between gap-7.5">
+ 
+ 
+ 
 <div className="bg-secondariy rounded-2xl border-primary border-r-3 border-b-3 p-9.5 lg:w-[33%] w-full">
 <p className=' text-[18px] font-rajdhani font-bold '>Starter</p>
 <p className='text-[48px] font-rajdhani font-bold text-black   '>$ 5.00</p>
@@ -35,8 +45,8 @@ export default function Priceplan() {
 </button>
 </div>
 
-
     </div>
+
 <div className="bg-secondariy rounded-2xl border-primary border-r-3 border-b-3  p-9.5  lg:w-[33%] w-full lg:mt-0 my-7.5 ">
 <p className='text-[18px] font-rajdhani font-bold '>Basic</p>
 <p className='text-[48px] font-rajdhani font-bold text-black   '>$ 230.00</p>
@@ -101,6 +111,9 @@ export default function Priceplan() {
 </Container>
 
     </div>
+
+    
+</motion.h1>
   )
 }
 

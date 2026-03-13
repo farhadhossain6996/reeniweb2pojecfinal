@@ -10,10 +10,18 @@ import { useTheme } from "next-themes";
 import { BsVectorPen } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
 import { IoCalendarClearOutline } from "react-icons/io5";
+import { motion } from "framer-motion";
+
 
 export default function LatstPrtfolo() {
   return (
-    <div className="lg:py-25 py-10  bg-[#F4F4F4] dark:bg-[#141414]   ">
+    <motion.h1
+    initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+>
+ <div className="lg:py-25 py-10  bg-[#F4F4F4] dark:bg-[#141414]   ">
       <Container>
         <div className="text-center">
           <p className="text-base text-primary font-medium font-rubik  uppercase ">
@@ -199,5 +207,8 @@ design
         </div>
       </Container>
     </div>
+
+
+</motion.h1>
   );
 }
