@@ -13,13 +13,13 @@ import { IoCalendarClearOutline } from "react-icons/io5";
 
 export default function LatstPrtfolo() {
   return (
-    <div className="lg:py-25 py-10  bg-[#F4F4F4]    ">
+    <div className="lg:py-25 py-10  bg-[#F4F4F4] dark:bg-[#141414]   ">
       <Container>
         <div className="text-center">
           <p className="text-base text-primary font-medium font-rubik  uppercase ">
             Latest Portfolio
           </p>
-          <h4 className="lg:text-[48px] text-[22px]  font-bold font-rajdhani leading-15 ">
+          <h4 className="lg:text-[48px] text-[22px]  dark:text-white font-bold font-rajdhani leading-15 ">
             Transforming Ideas into Exceptional
           </h4>
           <h4 className="text-base font-normal  font-rubik text-[#5D6570] lg:w-156.75 mx-auto">
@@ -37,14 +37,14 @@ export default function LatstPrtfolo() {
             />
             <div className="flex  items-center justify-between mt-[33.24px]">
               <div className="">
-                <p className="font-rajdhani font-bold text-[24px] leading-7.5">
+                <p className="font-rajdhani font-bold text-[24px] dark:text-white leading-7.5">
                   My Journey as a Creator
                 </p>
                 <p className="font-rubik font-normal text-base text-[#5D6570] mt-2.5">
                   Development Coaches
                 </p>
               </div>
-              <div className=" border-2 border-[#D9DDE0]  p-4 inline-block rounded-xl">
+              <div className=" border-2 border-[#D9DDE0] dark:text-white p-4 inline-block rounded-xl">
                 <FiArrowUpRight />
               </div>
             </div>
@@ -57,14 +57,14 @@ export default function LatstPrtfolo() {
             />
             <div className="flex  items-center justify-between mt-[33.24px]">
               <div className="">
-                <p className="font-rajdhani font-bold text-[24px]">
+                <p className="font-rajdhani font-bold text-[24px] dark:text-white">
                   My Journey as a Creator
                 </p>
                 <p className="font-rubik font-normal text-base text-[#5D6570] mt-2.5">
                   Development Coaches
                 </p>
               </div>
-              <div className=" border-2 border-[#D9DDE0] p-4 inline-block rounded-xl">
+              <div className=" border-2 border-[#D9DDE0] dark:text-white p-4 inline-block rounded-xl">
                 <FiArrowUpRight />
               </div>
             </div>
@@ -78,14 +78,14 @@ export default function LatstPrtfolo() {
             />
             <div className="flex  items-center justify-between mt-[33.24px]">
               <div className="">
-                <p className="font-rajdhani font-bold text-[24px] leading-7.5">
+                <p className="font-rajdhani font-bold text-[24px] leading-7.5 dark:text-white">
                   My Journey as a Creator
                 </p>
                 <p className="font-rubik font-normal text-base text-[#5D6570] mt-2.5">
                   Development Coaches
                 </p>
               </div>
-              <div className=" border-2 border-[#D9DDE0] p-4 inline-block rounded-xl">
+              <div className=" border-2 border-[#D9DDE0] dark:text-white p-4 inline-block rounded-xl">
                 <FiArrowUpRight />
               </div>
             </div>
@@ -97,14 +97,14 @@ export default function LatstPrtfolo() {
             />
             <div className="flex  items-center justify-between mt-[33.24px]">
               <div className="">
-                <p className="font-rajdhani font-bold text-[24px] leading-7.5">
+                <p className="font-rajdhani font-bold text-[24px] dark:text-white leading-7.5">
                   My Journey as a Creator
                 </p>
                 <p className="font-rubik font-normal text-base text-[#5D6570] mt-2.5">
                   Development Coaches
                 </p>
               </div>
-              <div className=" border-2 border-[#D9DDE0] p-4 inline-block rounded-xl">
+              <div className=" border-2 border-[#D9DDE0] dark:text-white p-4 inline-block rounded-xl">
                 <FiArrowUpRight />
               </div>
             </div>
@@ -117,11 +117,11 @@ export default function LatstPrtfolo() {
           <p className=" text-primary text-base font-rubik font-medium">
             My Skill
           </p>
-          <h3 className="lg:text-[48px] md:text-[32px] text-[22px] text-black  font-rajdhani font-bold lg:leading-15 lg:w-[50%]">
+          <h3 className="lg:text-[48px] md:text-[32px] text-[22px] text-black dark:text-white  font-rajdhani font-bold lg:leading-15 lg:w-[50%]">
             Elevated Designs Personalized the best Experiences
           </h3>
 
-          <div className="mt-15 pb-25 space-y-11 ">
+          <div className="mt-15 pb-25 space-y-11 dark:text-white ">
             <div className="group">
               <div className="lg:flex md:flex items-center justify-between  group-hover:bg-primary transition-all duration-300  py-8 px-5 hover:text-black">
                 <div className=" lg:text-start  text-center lg:w-[15%] md:w-[15%] w-full ">
@@ -138,7 +138,7 @@ export default function LatstPrtfolo() {
                   </p>
                 </div>
               <div className="lg:w-[45%] md:w-[45%] w-full">
-                  <p className="font-rubik text-base text-[#5D6570] group-hover:text-black leading-8 lg:w-[80%] md:w-[80%] w-full    ">
+                  <p className="font-rubik text-base text-[#5D6570] group-hover:text-black leading-8 lg:w-[80%] md:w-[80%] w-full">
                   My work is driven by the belief that thoughtful design and
                   strategic planning can empowe brands strategic planning can
                   empower brands

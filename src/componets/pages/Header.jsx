@@ -1,15 +1,15 @@
-import { useTheme } from "next-themes";
+
 import { useState } from "react";
 import {
-    FaFacebookF,
-    FaInstagram,
-    FaLinkedinIn,
-    FaTwitter,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
 } from "react-icons/fa";
 import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
-import { MdLightMode } from "react-icons/md";
 import Container from "../Container";
+import DarkMode from "../toggle/DarkMode";
 import Logo from "/src/assets/Logo.png";
 
 
@@ -18,21 +18,27 @@ const Header = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
 };
-// const{ theme ,setTheme} =useTheme()
+function toggleDark() {
+    document.documentElement.classList.toggle("dark");
+  };
+
 
   return (
-    <div className="bg-header py-5 fixed w-full z-50 dark:text-black">
+    <div className="bg-header py-5 fixed w-full z-50 dark:text-white dark:bg-[#141414]">
       <Container>
         <div className="flex items-center justify-between">
           <div className="">
             <img src={Logo} />
           </div>
           {/* //Mobile Device Start  */}
+
+
           {!isOpen && (
             <div
               onClick={toggleMenu}
               className="cursor-pointer  text-primary lg:hidden"
             >
+              
               <HiMenu size={30} />
             </div>
           )}
@@ -47,7 +53,7 @@ const Header = () => {
           )}
           {isOpen ? (
             <div className=" w-full bg-header overflow-hidden fixed z-10 left-0 top-[10%] duration-300 ease-in-out ">
-              <ul className=" text-base font-bold font-rajdhani  flex justify-center items-center flex-col gap-x-10 my-4 ">
+              <ul className=" text-base font-bold font-rajdhani dark:text-black  flex justify-center items-center flex-col gap-x-10 my-4 ">
                 <li className="hover:text-primary duration-300 ease-in-out cursor-pointer">
                   Home
                 </li>
@@ -116,11 +122,7 @@ text-base font-bold font-rajdhani  flex justify-center items-center flex-col gap
 
 
 
-
-     <div  className=" bg-hedicon/6 p-3 inline-block hover:bg-primary hover:text-white ease-in-out  duration-300 cursor-pointer rounded-full">
-              <MdLightMode />
-            </div>
-        
+  <DarkMode/>
           </div>
         </div>
       </Container>
@@ -130,4 +132,3 @@ text-base font-bold font-rajdhani  flex justify-center items-center flex-col gap
 export default Header;
 
 
-// onClick={() => setTheme(theme==="light"?"dark":"light")}

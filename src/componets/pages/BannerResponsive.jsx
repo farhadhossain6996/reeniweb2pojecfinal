@@ -44,8 +44,8 @@ setShow(!isShow);
 
     {/* LEftSide */}
     <div className="font-bold font-rajdhani lg:w-[25%] w-full mt-7.5 ">
-        <h4 className=' text-[20px] md:text-[20px] '>Hello i’m</h4>
-        <h1 className=' text-[38px] md:text-[45px]  mb-2.5  '>Brooklyn Simmons
+        <h4 className=' text-[20px] md:text-[20px] dark:text-white '>Hello i’m</h4>
+        <h1 className=' text-[38px] md:text-[45px] dark:text-white  mb-2.5  '>Brooklyn Simmons
 </h1>
 <button className=' bg-primary px-7.5 py-5.5 flex  items-center gap-x-1.5 rounded-full font-medium font-rubik text-base text-white'> View Portfolio  <FaArrowRight />
 </button>
@@ -54,16 +54,13 @@ setShow(!isShow);
 
   
 
-
-
-
     </div>
  {/* RightPart */}
 
     <div className="   mt:10 lg:w-[25%] w-full">
 <div className="font-rubik font-normal text-4 ">
-<p className='text-black my-5 '>About Me</p>
-<p className='text-[#5D6570]'>A personal <span className='text-primary'>portfolio</span> is a collection of to 
+<p className='text-black my-5 dark:text-white '>About Me</p>
+<p className='text-[#5D6570] dark:text-white'>A personal <span className='text-primary'>portfolio</span> is a collection of to 
 your work, that is achievements, and a 
 skills that <span className='text-primary'>web design</span> highlights in your</p>
 </div>

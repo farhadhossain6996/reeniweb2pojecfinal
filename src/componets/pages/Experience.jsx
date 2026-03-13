@@ -19,8 +19,8 @@ export default function
   <div className="text-center">
     <img src={webdesign} className='mx-auto '  />
     <div className="">
-      <p className='text-[24px] font-bold font-rajdhani text-black  leading-8.5 text-center mt-7.5'>Web Design</p>
-    <p className='text-[#5D6570] font-rubik font-normal text-base leading-6.5 text-center mt-2.5 '>120 Projects</p>
+      <p className='text-[24px] font-bold font-rajdhani text-black  leading-8.5 text-center mt-7.5 dark:text-white'>Web Design</p>
+    <p className='text-[#5D6570] font-rubik font-normal text-base leading-6.5 text-center mt-2.5  '>120 Projects</p>
     </div>
   </div>
   
@@ -28,7 +28,7 @@ export default function
   <div className="border-3 border-primary/16 rounded-2xl lg:w-[25%] w-full lg:mt-0 mt-7.5 py-10.25">
  <div className="text-center">
     <img src={UiDesign} className='mx-auto '  />
-    <p className='text-[24px] font-bold font-rajdhani text-black  leading-8.5 text-center mt-7.5'>Ui/Ux Design</p>
+    <p className='text-[24px] font-bold font-rajdhani text-black  leading-8.5 text-center mt-7.5 dark:text-white'>Ui/Ux Design</p>
     <p className='text-[#5D6570] font-rubik font-normal text-base leading-6.5 text-center mt-2.5 '>241 Projects</p>
   </div>
 
@@ -37,14 +37,14 @@ export default function
   <div className="border-3 border-primary/16 rounded-2xl lg:w-[25%] w-full lg:mt-0 mt-7.5 py-10.25">
   <div className="text-center">
     <img src={WebResearch} className='mx-auto '  />
-    <p className='text-[24px] font-bold font-rajdhani text-black  leading-8.5 text-center mt-7.5'>Web Research</p>
+    <p className='text-[24px] font-bold font-rajdhani text-black  leading-8.5 text-center mt-7.5 dark:text-white'>Web Research</p>
     <p className='text-[#5D6570] font-rubik font-normal text-base leading-6.5 text-center mt-2.5 '>240 Projects</p>
   </div>
   </div>
   <div className="border-3 border-primary/16 rounded-2xl lg:w-[25%] w-full lg:mt-0 mt-7.5 py-10.25">
   <div className="text-center">
     <img src={Marketing} className='mx-auto '  />
-    <p className='text-[24px] font-bold font-rajdhani text-black  leading-8.5 text-center mt-7.5'>Marketing</p>
+    <p className='text-[24px] font-bold font-rajdhani text-black  leading-8.5 text-center mt-7.5 dark:text-white'>Marketing</p>
     <p className='text-[#5D6570] font-rubik font-normal text-base leading-6.5 text-center mt-2.5 '>331 Prodect</p>
   </div>
   </div>

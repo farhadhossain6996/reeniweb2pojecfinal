@@ -18,7 +18,7 @@ function Service() {
           <p className="text-base font-rubik font-normal  text-primary uppercase">
             Latest Service
           </p>
-          <h2 className="text-black  lg:text-[48px] text-[22px] font-rajdhani font-bold">
+          <h2 className="text-black  lg:text-[48px] text-[22px] font-rajdhani font-bold dark:text-white">
             Inspiring The World One Project
           </h2>
           <p className="text-[#5D6570] font-rubik font-normal text-base">
@@ -81,8 +81,8 @@ function Service() {
 
         <div class="mt-22.5 lg:flex items-center justify-between gap-x-7.5  ">
           {/* Design Skill  */}
-          <div className="lg:w-1/2 w-full">
-            <h2 class="text-[32px] font-bold font-rajdhani mb-7.5 tracking-tight">
+          <div className="lg:w-1/2 w-full dark:text-white">
+            <h2 class="text-[32px] font-bold font-rajdhani mb-7.5 tracking-tight ">
               Design Skill
             </h2>
             <div class="space-y-7.5 ">
@@ -96,7 +96,7 @@ function Service() {
                 </div>
               </div>
 
-              <div class="group">
+              <div class="group dark:text-white">
                 <div class="flex justify-between text-[14px] font-normal font-rubik  mb-3.5 uppercase tracking-[0.2em] group-hover:text-primary transition-colors">
                   <span>Figma</span>
                   <span>95%</span>
@@ -106,7 +106,7 @@ function Service() {
                 </div>
               </div>
 
-              <div class="group">
+              <div class="group ">
                 <div class="flex justify-between text-[14px] font-normal font-rubik  mb-3.5 uppercase tracking-[0.2em] group-hover:text-primary transition-colors">
                   <span>Adobe XD</span>
                   <span>60%</span>
@@ -116,7 +116,7 @@ function Service() {
                 </div>
               </div>
 
-              <div class="group">
+              <div class="group ">
                 <div class="flex justify-between text-[14px] font-normal font-rubik  mb-3.5 uppercase tracking-[0.2em] group-hover:text-primary transition-colors">
                   <span>Adobe Illustrator</span>
                   <span>70%</span>
@@ -130,7 +130,7 @@ function Service() {
 
           {/* Development Skill */}
 
-          <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5">
+          <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5 dark:text-white">
             <h2 class="text-[32px] font-bold font-rajdhani mb-7.5 tracking-tight">
               Development Skill
             </h2>
@@ -240,6 +240,9 @@ function Service() {
           </div>
         </div>
 
+
+{/* Experiences */}
+
         <div className="lg:flex justify-between items-start gap-x-13.75 mt-15">
           {/* LeftSide */}
           <img src={expertimg} className="lg:w-1/2 w-full" />
@@ -247,17 +250,17 @@ function Service() {
           {/* RightSide */}
 
           <div className="space-y-3 lg:w-1/2 w-full lg:mt-0 mt-7.5">
-            <h3 className="font-rajdhani font-bold text-[32px]">
+            <h3 className="font-rajdhani font-bold text-[32px] dark:text-white">
               Experiences
             </h3>
             <div className="">
               <p className="text-primary text-base font-rubik font-bold leading-10.5">
                 experience
               </p>
-              <p className="text-[24px] font-rajdhani font-bold text-black  leading-7.5 ">
+              <p className="text-[24px] font-rajdhani font-bold text-black dark:text-white  leading-7.5 ">
                 Fatima Asrafy
               </p>
-              <p className="text-[18px] font-rajdhani font-medium text-[#141414] leading-6.75">
+              <p className="text-[18px] font-rajdhani font-medium text-[#141414] dark:text-white leading-6.75">
                 UI/UX Designer
               </p>
               <p className="text-base font-rubik font-normal text-[#5D6570] leading-7.5 mt-4 lg:w-111 w-full ">
@@ -269,10 +272,10 @@ function Service() {
               <p className="text-primary text-base font-rubik font-bold leading-10.5">
                 experience
               </p>
-              <p className="text-[24px] font-rajdhani font-bold text-black leading-7.5 ">
+              <p className="text-[24px] font-rajdhani font-bold dark:text-white text-black leading-7.5 ">
                 Fatima Asrafy
               </p>
-              <p className="text-[18px] font-rajdhani font-medium text-[#141414]  leading-6.75 ">
+              <p className="text-[18px] font-rajdhani font-medium text-[#141414] dark:text-white  leading-6.75 ">
                 UI/UX Designer
               </p>
               <p className="text-base font-rubik font-normal text-[#5D6570] leading-7.5 mt-4 lg:w-111 w-full ">

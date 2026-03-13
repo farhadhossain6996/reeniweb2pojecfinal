@@ -204,10 +204,6 @@ skills that <span className='text-primary'>web design</span> highlights in your<
  )}
 
 
-
-
-
-
 {/* Card */}
 
   

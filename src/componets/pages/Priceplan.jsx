@@ -9,7 +9,7 @@ export default function Priceplan() {
 <Container>
 <div className="text-center  ">
     <p className='text-base font-rubik font-medium text-primary uppercase'>My Price plan</p>
-    <h3 className='lg:text-[48px] md:text-[32px] text-[22px] text-black  font-bold font-rajdhani text-center lg:leading-15 lg:w-121 w-full mx-auto'>Enhancing Collaboration between Remote</h3>
+    <h3 className='lg:text-[48px] md:text-[32px] text-[22px] text-black  font-bold font-rajdhani text-center lg:leading-15 lg:w-121 w-full dark:text-white mx-auto'>Enhancing Collaboration between Remote</h3>
 </div>
 <div className="lg:mt-12.5 mt-7.5  lg:flex items-center justify-between gap-7.5">
 <div className="bg-secondariy rounded-2xl border-primary border-r-3 border-b-3 p-9.5 lg:w-[33%] w-full">
