@@ -24,7 +24,7 @@ function toggleDark() {
 
   return (
   
- <div className="bg-header py-5 fixed w-full z-50 dark:text-white dark:bg-[#141414]">
+ <div className="bg-header py-5 fixed w-full top-0 z-50 dark:text-white dark:bg-[#141414]">
       <Container>
         <div className="flex items-center justify-between">
           <div className="">

@@ -7,16 +7,13 @@ import Priceplan from './Priceplan'
 import Testimonial from './Testimonial'
 import BlogNews from './BlogNews'
 import Footer from './Footer'
-import BannerResponsive from './BannerResponsive'
+
 import Experience from './Experience'
-
-
 export default function Home() {
   return (
     <>
     <Header/>
     <Banner/>
-    <BannerResponsive/>
     <Experience/>
     <Service/>
     <LatstPrtfolo/>

@@ -20,13 +20,24 @@ body {
   --color-hedicon: #0a0a0a;
   --color-primary: #ff494a;
   --color-secondariy: #f4f4f4;
+  --color-tertiary: #f4f4f4;
 }
 
+:root {
+  --primary: #FF494A ;
+  --tertiary: #5D6570;
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-tertiary: var(--tertiary);
+  --color-white: var(--white);
+}
 @keyframes fill {
   from {
     width: 0;
   }
 }
+
 .animate-fill {
   animation: fill 1.5s ease-out forwards;
 }
+

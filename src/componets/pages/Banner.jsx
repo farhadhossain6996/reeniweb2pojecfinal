@@ -27,54 +27,31 @@ const[isShow ,setShow] = useState(false);
       viewport={{ once: true }}
 >
   
-<div className='lg:block mb-22.5 relative pt-25 hidden'>
+<div className='lg:pb-22.5 pb-7.5 '>
 <Container>
-<div className="lg:flex justify-between items-center">
+<div className="lg:flex justify-between items-center relative">
 
-    {/* LEftSide */}
-    <div className="font-bold font-rajdhani lg:w-[25%] w-full ">
-        <h4 className=' text-[28px] dark:text-white'>Hello i’m</h4>
+
+<div className="lg:w-159.25 w-90 lg:h-201.25 h-113.75 md:w-120 md:h-140 left-1/2 lg:top-0 -top-125 md:-top-150   -translate-x-1/2 absolute z-10    ">
+      <img src={BanrImg} />
+</div>   
+        <div className="font-bold font-rajdhani lg:w-[25%] w-full lg:mt-52.75  mt-150  md:mt-150 ">
+        <h4 className=' text-[28px] dark:text-white '>Hello i’m</h4>
         <h1 className='lg:text-[90px] md:text-[45px] text-[38px] lg:leading-25.75 dark:text-white  '>Brooklyn Simmons
 </h1>
 <button className=' bg-primary px-7.5 py-5.5 flex  items-center gap-x-1.5 rounded-full font-medium font-rubik text-base text-white '> View Portfolio <FaArrowRight />
 </button>
     </div>
- {/* Middlepart */}
-
-     <div className="relative items-center lg:w-[50%] w-full ">
 
 
-
-
-    <div className="absolute -bottom-14 -right-65.5 z-0 w-267.75  ">
-         <img src={Heading}  />
-       </div>
-       <div className="absolute -bottom-15 left-4 z-20  w-[754.36px]  ">
-         <img src={WebDesign}  />
-       </div> 
-<div className="relative z-10 ">
-    <div className="">
-      <img src={BanrImg} />
-    </div>
-</div>
-
-
-     
-
-
-    </div>
- {/* RightPart */}
-
-    <div className=" lg:mt-0  mt:10 lg:w-[25%] w-full">
+<div className=" lg:w-[25%] w-full lg:mt-52.75 mt-7.5 ">
 <div className="font-rubik font-normal text-4 ">
 <p className=' text-black dark:text-white my-5'>About Me</p>
-<p className='text-[#5D6570] '>A personal <span className='text-primary'>portfolio</span> is a collection of to <br />
-your work, that is achievements, and a <br />
-skills that <span className='text-primary'>web design</span> highlights in your</p>
+<p className='text-tertiary dark:text-white'>A personal <span className='text-primary'>portfolio</span> is a collection of to your work, that is achievements, and a skills that <span className='text-primary'>web design</span> highlights in your</p>
 </div>
 <div className="mt-10">
     <p className='font-rubik font-normal text-4 pb-2.5 text-black dark:text-white'>Find me on</p>
-<div className="flex items-center gap-x-2">
+<div className="flex items-center gap-x-2 dark:text-white">
     <div className="bg-hedicon/6 p-3 inline-block hover:bg-primary hover:text-white ease-in-out  duration-300 cursor-pointer rounded-full">
 <FaInstagram  />
 </div>
@@ -90,18 +67,40 @@ skills that <span className='text-primary'>web design</span> highlights in your<
 </div>
 </div>
     </div>
+
+
 </div>
+
+
+         <div className=" relative">
+                          <h2 className=" text-center mt-11 ml-10 text-[213px] font-bold font-rajdhani leading-61 text-transparent [--stroke-color:var(--color-secondary)] dark:[--stroke-color:var(--color-white)]  [-webkit-text-stroke:1px_var(--stroke-color)] hidden lg:block ">
+                    WEB DESIGN
+                </h2>
+                <h3 className="  absolute left-63 -bottom-12 text-[150px] font-bold font-rajdhani leading-43 text-transparent [--stroke-color:var(--color-primary)] [-webkit-text-stroke:1px_var(--stroke-color)] z-40 hidden lg:block">
+                    WEB DESIGN
+                </h3>
+                    </div>
+
+
+
+
+
+
+    
 
 </Container>
 
-<div className="fixed z-40  lg:top-71 right-0 bottom-10">
+
+{/* CardPart */}
+
+<div className="fixed z-40  lg:top-71 top-63 right-0 bottom-10">
   <img src={preBuilt} />
 </div>
 
 
 
  {!isShow && (
-<div onClick={toggleMenu} className="fixed z-40  lg:top-169.5 right-5 bottom-10 cursor-pointer">
+<div onClick={toggleMenu} className="fixed z-40  lg:top-169.5 top-152 right-5 bottom-10 cursor-pointer">
     <div className="bg-primary p-3 rounded-full inline-block text-white ">
 <FaFacebookMessenger size={30} />
 </div>
