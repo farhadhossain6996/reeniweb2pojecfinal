@@ -27,7 +27,7 @@ const[isShow ,setShow] = useState(false);
       viewport={{ once: true }}
 >
   
-<div className='lg:pb-22.5 pb-7.5 '>
+<div className='lg:py-22.5 pb-7.5 '>
 <Container>
 <div className="lg:flex justify-between items-center relative">
 

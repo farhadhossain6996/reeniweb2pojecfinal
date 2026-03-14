@@ -26,6 +26,7 @@ body {
 :root {
   --primary: #FF494A ;
   --tertiary: #5D6570;
+  --white: #ffffff;
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-tertiary: var(--tertiary);
